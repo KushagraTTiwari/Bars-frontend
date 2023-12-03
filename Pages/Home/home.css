@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    background-color: grey;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.home-hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Images/backimage.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Search Css */
+
+.home-search{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    position: relative;
+    /* margin-bottom: 15px; */
+    /* border: 1px solid rgb(24, 21, 21); */
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+.icon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+  
+input {
+    padding-left: 15px; /* Adjust this value to accommodate icon size */
+    height: 2rem;
+    width: 100%;
+    border-style: none;
+    margin-left: 10px;
+}
+
+.fa-magnifying-glass-location{
+    color: red;
+    font-size: 1.2rem;
+}
+.fa-location-dot{
+    color: red;
+    font-size: 1.5rem;
+}
+.fa-question{
+    color: red;
+    font-size: 1.5rem;
+}
+
+#opt{
+    height: 2rem;
+    width: 100%;
+    border-style: none;
+    padding-left:11px ;
+    margin: 15px;
+}
+
+.slt{
+    margin-right: 18px;
+}
+
+.btnn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: black;
+    color: red;
+}
+
+
+
+
+/* Card CSS */
+.card {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    background-color: #ffe4c4;
+    border-radius: 12px;
+}
+
+.card-img {
+    width: 30%;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-details {
+    padding: 1rem;
+    width: 100%;
+}
+
+.card-details .card-details-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px ;
+}
+
+.card-details .card-details-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px ;
+
+}
+
+
