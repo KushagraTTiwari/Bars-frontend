@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../Details/detail.css" />
   </head>
   <body>
+    <nav class="nav">
+      <div class=" navbar">
+          <img src="../../Images/icon.png" style="padding-left: 5px;" height="10%" width="5%">
+          <p style="padding-left: 5px;">Brewery</p>
+      </div>
+    </nav>
     <section class="details_img">
       <img
         width="100%"
@@ -15,7 +21,7 @@
         srcset=""
       />
     </section>
-    <section>
+    <section class="info">
       <div class="Brewery_info">
         <div>
           <img src="../../Images/icon.png" alt="" />
@@ -51,7 +57,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="review">
       <div class="review_heading">
         <h1>Reviews</h1>
       </div>
@@ -86,15 +92,12 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="rev">
       <div class="review_heading">
         <h1>Submit Your Review!</h1>
       </div>
 
       <form class="submit_review">
-        <label for="name"> Name: </label>
-        <input type="text" />
-        <br />
         <label for="description"> Description: </label>
         <textarea name="" id="" cols="30" rows="10"></textarea>
         <br />
@@ -114,7 +117,9 @@
         <div id="resultt"></div>
         
         <br />
-        <button type="submit" id="submit_review_btn">Submit</button>
+        <div class="set-btn">
+          <button type="submit" id="submit_review_btn">Submit</button>
+        </div>
       </form>
     </section>
     <script src="../detail.js"></script>
