@@ -8,9 +8,14 @@
   </head>
   <body>
     <nav class="nav">
-      <div class=" navbar">
-          <img src="../../Images/icon.png" style="padding-left: 5px;" height="10%" width="5%">
-          <p style="padding-left: 5px;">Brewery</p>
+      <div class="navbar">
+        <img
+          src="../../Images/icon.png"
+          style="padding-left: 5px"
+          height="10%"
+          width="5%"
+        />
+        <p style="padding-left: 5px">Brewery</p>
       </div>
     </nav>
     <section class="details_img">
@@ -23,38 +28,10 @@
     </section>
     <section class="info">
       <div class="Brewery_info">
-        <div>
+        <!-- <div>
           <img src="../../Images/icon.png" alt="" />
           <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
-        <div>
-          <img src="../../Images/icon.png" alt="" />
-          <p>info1</p>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="review">
@@ -97,31 +74,34 @@
         <h1>Submit Your Review!</h1>
       </div>
 
-      <form class="submit_review">
+      <div class="submit_review">
         <label for="description"> Description: </label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="description" cols="30" rows="10"></textarea>
         <br />
         <div class="rating">
           <!-- <h3 id="rate"></h3> -->
-          <input type="radio" id="star5" name="rating" value="5">
+          <input type="radio" id="star5" name="rating" value="5" />
           <label for="star5">&#9733;</label>
-          <input type="radio" id="star4" name="rating" value="4">
+          <input type="radio" id="star4" name="rating" value="4" />
           <label for="star4">&#9733;</label>
-          <input type="radio" id="star3" name="rating" value="3">
+          <input type="radio" id="star3" name="rating" value="3" />
           <label for="star3">&#9733;</label>
-          <input type="radio" id="star2" name="rating" value="2">
+          <input type="radio" id="star2" name="rating" value="2" />
           <label for="star2">&#9733;</label>
-          <input type="radio" id="star1" name="rating" value="1">
+          <input type="radio" id="star1" name="rating" value="1" />
           <label for="star1">&#9733;</label>
         </div>
         <div id="resultt"></div>
-        
+
         <br />
         <div class="set-btn">
-          <button type="submit" id="submit_review_btn">Submit</button>
+          <button id="submit_review_btn">Submit</button>
         </div>
-      </form>
+      </div>
     </section>
     <script src="../detail.js"></script>
+    <script>
+      
+    </script>
   </body>
 </html>
